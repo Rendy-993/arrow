@@ -35,7 +35,7 @@
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
-
+    font-size: 20px;
     min-width: 260px;    /* ⭐ ключевая строка */
   }
 
@@ -43,6 +43,7 @@
   button:hover {
     background: #5a4b3d;
   }
+
 
   input[type="number"] {
     width: 120px; /* чуть шире для пальца */
@@ -108,15 +109,15 @@
 <div id="top-controls">
   Перейти на страницу: 
   <input type="number" id="page-input" min="1" />
-  <button id="go-page">Перейти</button>
+  <button id="go-page" >Перейти</button>
 </div>
 
 <div id="book-container"></div>
 
 <!-- Нижний контрол -->
 <div id="bottom-controls">
-  <button id="prev-section">← Назад</button>
-  <button id="next-section">Вперёд →</button>
+  <button id="prev-section" >← Назад</button>
+  <button id="next-section" >Вперёд →</button>
 </div>
 
 <script>
